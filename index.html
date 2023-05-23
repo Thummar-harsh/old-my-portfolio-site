@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="nova.js"></script>
+
+	<link rel="icon" type="icon" href="photo/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="htag">
+			<h1>My Portfolio</h1>
+			<img src="photo/avtarofprofile.png" alt="" srcset="">
+		</div>
+		<div class="logo">
+			<img src="photo/logo.png" alt="">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="home">
+			<div class="container">
+				<div class="intro">
+
+					<!-- avatar image -->
+					<div class="avatar">
+						<img src="photo/profile.png" alt="NoVa" class="profile">
+					</div>
+
+					<div class="im">
+						<span class="fanimated">I'm a <span class="animated">Front-End developer</span>
+					</div>
+
+					<div class="icon">
+						<ul class="social-icons">
+							<li ><a href="#"><i class="fab fa-instagram">
+								<object type="image/svg+xml" data="svg/insta.svg">
+									insta <!-- fallback image in CSS -->
+								</object>	
+							</i></a></li>
+
+							<li ><a href="#"><i class="fab fa-twitter">
+							<object type="image/svg+xml" data="svg/twitter.svg">
+								twitter <!-- fallback image in CSS -->
+							</object></i></a></li>
+
+							<li ><a href="#"><i class="fab fa-facebook">
+							<object type="image/svg+xml" data="svg/facebook.svg">
+								facebook <!-- fallback image in CSS -->
+							</object></i></a></li>
+						</ul>
+					</div>
+
+					<div class="portfolio">
+						<img src="photo/portfolio.jpeg" alt="">
+					</div>
+
+					<div class="mt-4">
+						<a href="#contact" class="btn btn-default"> Hire me </a>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+
+
+		<section id="projects">
+
+			<div class="titel">
+				<h2>My Projects</h2>
+			</div>
+			<div class="pdata">
+				<div class="project">
+
+
+					<img src="photo/project1.png">
+					
+					<div class="over over--blur">
+					
+						<a href="project1.html"><h3>Project 1</h3>
+						<p>Microcontroller and Microprocessor type project</p></a>
+					</div>
+
+				</div>
+				<div class="project">
+
+					<img src="photo/project2.png">
+
+					<div class="over over--blur">
+						<a href="#home"><h3>Project 2</h3>
+						<p>Portfolio website design</p></a>
+					</div>
+				</div>
+				<div class="project">
+					<img src="photo/project3.png">
+					<div class="over over--blur">
+						<a href="project3.html"><h3>Project 3</h3>
+						<p>photography website</p></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="pdata">
+				<div class="project">
+					<img src="photo/project4.png">
+					<div class="over over--blur">
+						<a href="project4.html"><h3>Project 4</h3>
+						<p>Generate QR Code with Python</p></a>
+					</div>
+				</div>
+				<div class="project">
+					<img src="photo/project5.png">
+					<div class="over over--blur">
+						<a href="https://drive.google.com/drive/u/0/folders/1EHuyrAAJ0gmP408M3ZtIucEwBn13MHPl"><h3>Project 5</h3>
+						<p>Some UI/UX design Templates</p></a>
+					</div>
+				</div>
+				<div class="project">
+					<img src="photo/project6.png">
+					<div class="over over--blur">
+						<a href="project6.html"><h3>Project 6</h3>
+						<p>Some VHDL code with QUARTUS II </p></a>
+					</div>
+				</div>
+
+			</div>
+
+
+		</section>
+		<section id="about">
+
+			<!-- <div class="sp"></div> -->
+			<div class="sp2"></div>
+
+			<div class="titel">
+				<h2>About Me</h2>
+			</div>
+
+			<div class="aboutme-c">
+				<!-- <div class="aboutmep">
+					<p>I am a web developer, United Kingdom. I have rich experience in web site design
+						and
+						building and customization, also I am good at WordPress.</p>
+				</div> -->
+
+				<div class="aboutmel">
+					<object type="image/svg+xml" data="svg/aboutmeline.svg">
+						aboutme in deep <!-- fallback image in CSS -->
+					</object>
+				</div>
+			</div>
+
+			<div class="aboutme-logo">
+				<object type="image/svg+xml" data="svg/aboutme.svg">
+					aboutme in deep <!-- fallback image in CSS -->
+				</object>
+
+			</div>
+
+		</section>
+
+		<section id="contact">
+			<!-- <h2>Contact Me</h2> -->
+			<!-- <form id="contact-form">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</form> -->
+			<object id="svgofcontact" type="image/svg+xml" data="svg/Contact.svg">
+				aboutme in deep <!-- fallback image in CSS -->
+			</object>
+			<div class="container">
+				<h1>Contact Me</h1>
+				<form action="submitted.html" name="suForm" id="supform">
+					
+					<label for="username">Your Name:</label>
+					<input type="text" id="name" name="username" placeholder="Enter your name" autocomplete="off" onclick="resetBtn()" maxlength="30">
+					
+					<label for="email">Email name:</label>
+					<input type="email" id="email" name="email" placeholder="Enter your email" onclick="resetBtn()" minlength="8">
+					
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" placeholder="write a message" rows="5" required></textarea>
+					<div class="ten"></div>
+					<input type="submit" id="submit-btn" value="Submit" onmouseover="mouseOver()">
+				</form>
+				
+			</div>
+			
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; My Portfolio 2023</p>
+	</footer>
+</body>
+
+</html>
